@@ -1,1 +1,39 @@
-/* You can add global styles to this file, and also import other style files */
+@import '~@angular/material/prebuilt-themes/deeppurple-amber.css';
+body, html, .wrapper {
+  width: 100%;
+  height: 80%
+}
+
+.wrapper {
+  display: table
+}
+
+.main {
+  display: table-cell;
+  vertical-align: middle;
+  text-align:center
+}
+
+#currencyContainer {
+  width: 60%;
+  height: auto;
+  margin: 0 auto;
+  padding: 0px !important;
+
+}
+
+.col {
+  margin: 40px 20px 0 20px;
+}
+
+#convertedRate {
+  font-size: 50px;
+  margin-top: 20px;
+  padding-bottom: 25px;
+}
+
+.mat-card-title {
+  padding-top: 20px !important;
+}
+
+
